@@ -1,2 +1,2 @@
 # llm-evals
-Code to explore llm evals
+Simple streamlit app to explore llm evals
