@@ -1,6 +1,6 @@
 from typing import Optional
 import streamlit as st
-from data import BBH, GPQA, MATH, Dataset, IFEval, MMLUPro, MuSR
+from data import AI12ARC, BBH, DROP, GLUE, GPQA, GSM8K, MATH, MMLU, PIQA, SIQA, AGIEval, Boolq, Dataset, Hellaswag, IFEval, MMLUPro, MuSR, WinoGrande
 
 
 datasets = {
@@ -10,6 +10,17 @@ datasets = {
     "MATH": MATH,
     "IFEval": IFEval,
     "BBH": BBH,
+    "MMLU": MMLU,
+    "AI12-ARC": AI12ARC,
+    "GSM8K": GSM8K,
+    "AGIEval": AGIEval,
+    "DROP": DROP,
+    "WinoGrande": WinoGrande,
+    "Hellaswag": Hellaswag,
+    "PIQA": PIQA,
+    "SIQA": SIQA,
+    "GLUE": GLUE,
+    "Boolq":Boolq
 }
 
 
